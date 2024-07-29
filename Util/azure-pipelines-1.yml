@@ -1,0 +1,22 @@
+trigger:
+- master
+
+pool:
+  vmImage: 'windows-latest'
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+- script: dotnet restore
+  displayName: 'dotnet restore'
+    
+- script: dotnet build --configuration $(buildConfiguration) -o $(Build.ArtifactStagingDirectory)
+  displayName: 'dotnet build $(buildConfiguration)'
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'push'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: '53ac8218-792a-48dd-aca3-50c16bad75d5/e46f2e0f-2229-48cf-89a4-30c370f6fe9d'

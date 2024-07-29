@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConsoleApp/1.0.0": {
+        "dependencies": {
+          "BuscaEndereco": "1.0.0"
+        },
+        "runtime": {
+          "ConsoleApp.dll": {}
+        }
+      },
+      "BuscaEndereco/1.0.0": {
+        "runtime": {
+          "lib/net8.0/BuscaEndereco.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BuscaEndereco/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9crsTWTzWbQKb3KbLApM3Dj+4Uemxd7m2nRmji1p3wIvOyFb80Q0CtvdZZU4s7cclzryOuh2Ju47/K/qSom/XA==",
+      "path": "buscaendereco/1.0.0",
+      "hashPath": "buscaendereco.1.0.0.nupkg.sha512"
+    }
+  }
+}

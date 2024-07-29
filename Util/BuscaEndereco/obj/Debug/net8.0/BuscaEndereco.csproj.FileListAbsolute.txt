@@ -1,0 +1,11 @@
+D:\source\Util\BuscaEndereco\bin\Debug\net8.0\BuscaEndereco.deps.json
+D:\source\Util\BuscaEndereco\bin\Debug\net8.0\BuscaEndereco.dll
+D:\source\Util\BuscaEndereco\bin\Debug\net8.0\BuscaEndereco.pdb
+D:\source\Util\BuscaEndereco\obj\Debug\net8.0\BuscaEndereco.GeneratedMSBuildEditorConfig.editorconfig
+D:\source\Util\BuscaEndereco\obj\Debug\net8.0\BuscaEndereco.AssemblyInfoInputs.cache
+D:\source\Util\BuscaEndereco\obj\Debug\net8.0\BuscaEndereco.AssemblyInfo.cs
+D:\source\Util\BuscaEndereco\obj\Debug\net8.0\BuscaEndereco.csproj.CoreCompileInputs.cache
+D:\source\Util\BuscaEndereco\obj\Debug\net8.0\BuscaEndereco.dll
+D:\source\Util\BuscaEndereco\obj\Debug\net8.0\refint\BuscaEndereco.dll
+D:\source\Util\BuscaEndereco\obj\Debug\net8.0\BuscaEndereco.pdb
+D:\source\Util\BuscaEndereco\obj\Debug\net8.0\ref\BuscaEndereco.dll

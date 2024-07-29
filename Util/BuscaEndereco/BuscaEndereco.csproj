@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>Busca endereço na API dos correios</Title>
+    <Authors>Thiago Moura</Authors>
+    <Version>1.1.0</Version>
+    <Company>The Workspace</Company>
+    <Product>BuscaEndereco</Product>
+    <Description>Pacote interno para consultar endereço por meio da API do correios</Description>
+  </PropertyGroup>
+
+</Project>
